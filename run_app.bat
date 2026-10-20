@@ -1,0 +1,6 @@
+@echo off
+echo Installing requirements...
+python -m pip install -r requirements.txt
+echo Starting SP MADRID Recovery Report Tool...
+python -m streamlit run app.py
+pause
